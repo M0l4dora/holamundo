@@ -72,4 +72,4 @@ Si querés, reemplazalas por capturas de pantalla de tu propia sesión de VS Cod
 
 ## 6. Enlace del repositorio
 
-https://github.com/M0l4dora/holamundo.git
+Repositorio de GitHub: https://github.com/M0l4dora/holamundo.git
