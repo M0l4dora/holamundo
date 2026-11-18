@@ -1,0 +1,15 @@
+# Configuración local del editor
+.vscode/
+
+# Archivos generados por la compilación
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
