@@ -9,21 +9,17 @@
   ====================================================================
 */
 
-#include <iostream> // Es la Biblioteca estandar para operaciones de entrada y salida (cout/cin)
+#include <iostream>
 
-using namespace std; // Evita tener que anteponer 'std::' antes de cada comando de consola o terminal
+using namespace std;
 
 int main() {
-    // ====================================================================
-    // REGLA OBLIGATORIA (EVITA EL COPIADO):
-    // Cada estudiante debe modificar la salida de pantalla agregando su
-    // Nombre y Apellido reales antes de compilar y realizar la entrega de la actividad 2.
-    // ====================================================================
+
 
     cout << "=====================================================" << endl;
     cout << "  Hola Mundo! Bienvenido al Taller de LPR 2026.      " << endl;
     cout << "  Estudiante: Julian Fricker                        " << endl;
     cout << "=====================================================" << endl;
 
-    return 0; // Le indica al sistema operativo Windows 11 que el programa finalizo con exito (codigo 0)
+    return 0; 
 }

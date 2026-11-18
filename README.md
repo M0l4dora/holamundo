@@ -9,11 +9,13 @@ Estudiante: Julian Fricker. Año: 2026.
 - **Editor:** Visual Studio Code (VS Code), descargado desde el sitio oficial.
 - **Extensiones instaladas en esta PC** (`code --list-extensions --show-versions`):
   - `ms-vscode.cpptools@1.35.6` — C/C++ (Microsoft): resaltado de sintaxis, IntelliSense y depuración.
+  - `ms-vscode.cpptools-extension-pack@1.5.1`, `ms-vscode.cmake-tools@1.25.10` y `ms-vscode.cpptools-themes@2.0.0`.
   - `github.copilot@1.372.0` y `github.copilot-chat@0.25.1` — asistencia de IA.
   - `platformio.platformio-ide@3.3.4` — entorno para sistemas embebidos.
-- **Extensiones recomendadas por la actividad** (instalar si faltan): C/C++ Extension Pack y Code Runner.
-- **Compilador:** MinGW-w64 (GCC), presente en el `PATH` del sistema (verificar con `g++ --version`).
-  Si el equipo no permite instalar MSYS2/MinGW, se usa **OnlineGDB** para compilar y ejecutar en la nube.
+  - Opcional: instalar Code Runner para ejecutar con un clic.
+- **Compilador:** MSYS2 + MinGW-w64 GCC 16.2.0, instalado en `C:\msys64\mingw64\bin\g++.exe` y agregado al `PATH` del usuario. Verificar con `g++ --version`.
+  La configuración de IntelliSense está en `.vscode/c_cpp_properties.json` (carpeta ignorada por Git).
+  Si otro equipo no permite instalar MSYS2, la alternativa es **OnlineGDB**.
 - **Terminal:** terminal integrada de VS Code (`Ctrl + Ñ`) en PowerShell sobre Windows 10/11.
 
 ## 2. Estructura del repositorio
@@ -52,15 +54,15 @@ Salida esperada:
 =====================================================
 ```
 
-## 4. Estado de las evidencias
+## 4. Evidencias
 
-Las imágenes de la carpeta `capturas/` son **marcadores de lugar**: reemplazalas por
-capturas reales de tu entorno antes de subir el repositorio a GitHub.
+Las imágenes de `capturas/` muestran la salida real obtenida en esta PC:
 
-- `gpp_version.png`: captura de la consola mostrando la versión de `g++`.
-  Si no hay compilador local, documentá el uso de OnlineGDB en el informe.
-- `extensiones_vscode.png`: captura del panel de extensiones (`Ctrl + Shift + X`).
-- `ejecucion_hola_mundo.png`: captura de la terminal compilando y corriendo el programa.
+- `gpp_version.png`: salida de `g++ --version` (GCC 16.2.0, MSYS2).
+- `extensiones_vscode.png`: salida de `code --list-extensions --show-versions`.
+- `ejecucion_hola_mundo.png`: comandos de compilación y salida del programa.
+
+Si querés, reemplazalas por capturas de pantalla de tu propia sesión de VS Code.
 
 ## 5. Entrega
 
