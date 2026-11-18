@@ -69,3 +69,7 @@ Si querés, reemplazalas por capturas de pantalla de tu propia sesión de VS Cod
 - Informe en PDF con formato APA 7: `docs/InformeProyectoholamundo.pdf`.
 - Repositorio de GitHub con esta misma estructura de carpetas (sin carpetas sueltas).
 - Fecha de entrega: prorrogada hasta el 31 de agosto de 2026.
+
+## 6. Enlace del repositorio
+
+https://github.com/M0l4dora/holamundo.git
